@@ -1,13 +1,11 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(void) {
 
     FILE *fp;
 
     int start1,end1,start2,end2, num_overlaps,num_overlap2;
-    num_overlaps = 0;
-    num_overlap2 = 0;
+    num_overlaps = 0, num_overlap2 = 0;
 
     fp = fopen("assignments.txt", "r");
 
